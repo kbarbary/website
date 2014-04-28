@@ -115,10 +115,13 @@ does not.)
 Unwrapped version (no temporaries)
 ----------------------------------
 
-In Python, to write effecient unwrapped array expressions, we would usually
-have to compile a special C extension, typically using a tool like `Cython`_
-that automatically takes care of much of the interface between C and Python.
-Here is a piece of Cython code to do this:
+This operation can be sped up by summing the elements as we loop over
+the two arrays, rather than first allocating and filling a new array
+(``x * y``) and then summing, in two separate steps.  In Python, to do
+this sort of thing efficiently, we would usually have to compile a
+special C extension, typically using a tool like `Cython`_ that
+automatically takes care of much of the interface between C and
+Python.  Here is a piece of Cython code to do this:
 
 .. _`Cython`: http://cython.org/
 
@@ -134,7 +137,7 @@ Here is a piece of Cython code to do this:
         return result
 
 Fortunately, NumPy already includes such a compiled function so we
-don't need to bother with the above version:
+don't need to bother with the above version. Here are the timings:
 
 .. code-block:: python
 
@@ -186,10 +189,13 @@ linear scaling in Julia all the way down to an array size of 10. For
 the smallest array size, Julia is nearly a factor of 50 faster than a
 compiled Python C extension.
 
+.. note:: Update: I've had trouble consistently reproducing the Julia performance for n=10 between Julia sessions. Timings on my machine seem to range from 18 ns to 70 ns (that is, the above timing is the best-case scenario). It is even slower when outside the ``for`` loop. n=100 and above are pretty consistent though.
+
 Conclusions
 -----------
 
-Here are the timings relative to the compiled NumPy extension version::
+Finally, here are the timings relative to the compiled NumPy extension
+version::
 
            n  numpy arraywise  julia arraywise  numpy.inner  julia inner
           10           10.518            1.985        1.000        0.023

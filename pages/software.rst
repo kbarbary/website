@@ -2,21 +2,46 @@
 .. description: 
 .. tags: 
 .. date: 2014/02/08 12:25:03
-.. title: Software
+.. title: Software projects
 .. slug: software
 
-Open-source software that you might find useful or interesting:
+These are some of the open-source projects I contribute to:
 
-* `AstroPy`_ is a community Python library for astronomy.
-  `AstroPy on GitHub`_.
+====
 
-* `SNCosmo`_ is an AstroPy-based package for supernova
-  cosmology that I started. `SNCosmo on GitHub`_.
+`AstroPy`_
+----------
 
-* `PhotUtils`_ is an AstroPy affiliated package for
-  photometry in Python. It is currently under
-  development by others but already has working implementations for
-  aperture photometry. `PhotUtils on GitHub`_.
+AstroPy is a community-developed Python library for astronomy.  A lot
+of my work on the core package has been on the documentation,
+including the layout, style and logo. I also contributed some
+functions in the ``stats`` module. `AstroPy on GitHub`_.
+
+====
+
+`PhotUtils`_
+------------
+
+PhotUtils is an AstroPy affiliated package for photometry in Python,
+destined for eventual inclusion in the main package as
+``astropy.photometry``. As opposted to a tool like Source Extractor,
+it is aimed at easily customizable high-precision photometry of a
+small number of sources. I wrote the existing implementation of
+aperture photometry. Work on PSF photometry is ongoing. `PhotUtils on
+GitHub`_.
+
+====
+
+`SNCosmo`_
+----------
+
+SNCosmo is an AstroPy-based Python package for supernova cosmology. 
+It's what I spend most of my time on these days. `SNCosmo on GitHub`_.
+
+====
+
+Other Projects
+--------------
 
 * `paper-tools`_ contains scripts for preparing papers for
   astronomical journals.
@@ -28,8 +53,8 @@ Open-source software that you might find useful or interesting:
 
 .. _`AstroPy`: http://www.astropy.org
 .. _`AstroPy on GitHub`: http://github.com/astropy/astropy 
-.. _`SNCosmo`: http://sncosmo.readthedocs.org
-.. _`SNCosmo on GitHub`: http://github.com/kbarbary/sncosmo
+.. _`SNCosmo`: http://sncosmo.github.io
+.. _`SNCosmo on GitHub`: http://github.com/sncosmo/sncosmo
 .. _`paper-tools`: http://github.com/kbarbary/paper-tools
 .. _`PhotUtils`: http://photutils.readthedocs.org
 .. _`PhotUtils on GitHub`: http://github.com/astropy/photutils

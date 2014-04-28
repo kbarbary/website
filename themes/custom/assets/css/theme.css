@@ -5,6 +5,10 @@ body {
     background: #f9f9f9;
 }
 
+ul {
+    padding-left: 1.5em;
+}
+
 .container {
     max-width: 750px;
 }
@@ -21,9 +25,11 @@ body {
     width: 150px;
 }
 
+/*
 img {
     max-width: 90%;
 }
+*/
 
 .postbox {
 /*    border-bottom: 2px solid darkgrey; */
@@ -173,15 +179,26 @@ footer {
 }
 
 /* social icons on index page */
-.about {
+.profile {
     padding-left: 0px;
+    padding-bottom: 50px;  /* hack to stop text from wrapping weirdly */
+    float: left;
+    width: inherit;
 }
-
-ul.social-list {
+.profile ul {
     margin-top: 15px;
-    font-size: 24px;
+    font-size: 21px;
     padding-left: 0px;
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
     list-style-type: none;
+}
+.profile ul img {
+    width: 24px;
+    height: 24px;
+    vertical-align: sub;
+}
+
+hr.docutils {
+    width: 100%
 }
