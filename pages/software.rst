@@ -9,12 +9,11 @@ These are some of the open-source projects I contribute to:
 
 ====
 
-`JuliaAstro`_
--------------
+`SNCosmo`_
+----------
 
-Astronomy packages for the `Julia`_ programming language.
-I've been working on the `FITSIO.jl`_ package and also contributed the
-`DustExtinction.jl`_ package for simple extinction laws.
+SNCosmo is a Python package for supernova cosmology data analysis and
+simulation. `SNCosmo on GitHub`_.
 
 ====
 
@@ -30,11 +29,12 @@ package for photometry and contributed dust extinction laws to the
 
 ====
 
-`SNCosmo`_
-----------
+`JuliaAstro`_
+-------------
 
-SNCosmo is an AstroPy-based Python package for supernova cosmology.
-`SNCosmo on GitHub`_.
+Astronomy packages for the `Julia`_ programming language.
+Lately, I've been working on the `FITSIO.jl`_ package and also
+contributed the `DustExtinction.jl`_ package for simple extinction laws.
 
 ====
 
