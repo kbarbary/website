@@ -64,8 +64,8 @@ TRANSLATIONS = {
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ('/research', 'Research'),
-        ('/publications', 'Publications'),
         ('/software', 'Software'),
+        ('/publications', 'Publications'),
         ('/contact', 'Contact'),
         ('/blog', 'Blog'),
 #        ('/categories/index.html', 'Tags'),
@@ -336,11 +336,13 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # Default is ''
-CONTENT_FOOTER = '<hr>Contents &copy; {date}         <a href="mailto:{email}">{author}</a> | Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         {license} | Theme is <a href="http://bootswatch.com/yeti/">Yeti</a>'
+CONTENT_FOOTER = """<hr>
+Contents &copy; {date}  <a href="mailto:{email}">{author}</a> | 
+Powered by <a href="http://getnikola.com" rel="nofollow">Nikola</a> | 
+Theme is <a href="http://bootswatch.com/yeti/">Yeti</a>"""
 CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL,
                                        author=BLOG_AUTHOR,
-                                       date=time.gmtime().tm_year,
-                                       license=LICENSE)
+                                       date=time.gmtime().tm_year)
 
 # To use comments, you can choose between different third party comment
 # systems, one of "disqus", "livefyre", "intensedebate", "moot",

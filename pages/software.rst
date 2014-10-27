@@ -5,17 +5,26 @@
 .. title: Software projects
 .. slug: software
 
-These are some of the open-source projects I contribute to:
+All my code is open-source and available on GitHub. This is a list of
+the main projects I work on:
 
 ====
+
+.. image:: /images/sncosmo.png
+   :height: 40px
+   :align: left
 
 `SNCosmo`_
 ----------
 
 SNCosmo is a Python package for supernova cosmology data analysis and
-simulation. `SNCosmo on GitHub`_.
+simulation. I'm the creator and core developer. `SNCosmo on GitHub`_.
 
 ====
+
+.. image:: /images/astropy.png
+   :height: 40px
+   :align: left
 
 `AstroPy`_
 ----------
@@ -29,6 +38,10 @@ package for photometry and contributed dust extinction laws to the
 
 ====
 
+.. image:: /images/juliaastro.png
+   :height: 40px
+   :align: left
+
 `JuliaAstro`_
 -------------
 
@@ -38,14 +51,40 @@ contributed the `DustExtinction.jl`_ package for simple extinction laws.
 
 ====
 
-Other Projects
---------------
+`SEP`_
+......
 
-* `SEP`_ is a C library for source detection and photometry, adapted
-  from the SourceExtractor code base.
+SEP is a C library for source detection and photometry, adapted from
+the SourceExtractor code base. I created it in order to make the
+SourceExtractor background and detection algoritms available directly
+from Python and Julia.  A Python wrapper is available in `sep-python`_,
+and a Julia wrapper is under development in `Photometry.jl`_.
+
+====
+
+`Nestle`_
+.........
+
+Nestle is a fully open-source (MIT-licensed) implementation of nested
+sampling algorithms in Python.
+
+
+====
+
+`Dierckx.jl`_
+.............
+
+Dierckx.jl is a package for 1-d and 2-d splines in Julia. It's a
+wrapper of the dierckx Fortran library available from NETLIB, the same
+library underlying the spline classes in scipy.interpolate.
+
+====
 
 * `paper-tools`_ contains scripts for preparing papers for
   astronomical journals.
+
+* `TimeIt.jl`_ has a ``@timeit`` macro for Julia, similar to ``%timeit``
+  magic in IPython.
 
 .. _`Julia`: http://julialang.org
 .. _`JuliaAstro`: http://github.com/JuliaAstro
@@ -59,3 +98,8 @@ Other Projects
 .. _`PhotUtils`: http://photutils.readthedocs.org
 .. _`SpecUtils`: http://specutils.readthedocs.org
 .. _`SEP`: http://github.com/kbarbary/sep
+.. _`sep-python`: http://github.com/kbarbary/sep-python
+.. _`Nestle`: http://github.com/kbarbary/nestle
+.. _`Photometry.jl`: http://github.com/kbarbary/Photometry.jl
+.. _`Dierckx.jl`: http://github.com/kbarbary/Dierckx.jl
+.. _`TimeIt.jl`: http://github.com/kbarbary/TimeIt.jl

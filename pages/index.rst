@@ -43,4 +43,4 @@ software in the `blog </blog>`_ section of this site.
 .. _`Nearby Supernova Factory`: http://snfactory.lbl.gov
 .. _`Dark Energy Survey`: http://www.darkenergysurvey.org
 .. _`Berkeley Center for Cosmological Physics`: http://bccp.berkeley.edu/
-.. _`Berkeley Institute for Data Science`: http://blog.fperez.org/2013/11/an-ambitious-experiment-in-data-science.html
+.. _`Berkeley Institute for Data Science`: http://bids.berkeley.edu
