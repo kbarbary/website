@@ -18,7 +18,7 @@ the main projects I work on:
 ----------
 
 SNCosmo is a Python package for supernova cosmology data analysis and
-simulation. I'm the creator and core developer. `SNCosmo on GitHub`_.
+simulation. I'm the creator and main developer. `SNCosmo on GitHub`_.
 
 ====
 
@@ -54,20 +54,10 @@ contributed the `DustExtinction.jl`_ package for simple extinction laws.
 `SEP`_
 ......
 
-SEP is a C library for source detection and photometry, adapted from
-the SourceExtractor code base. I created it in order to make the
-SourceExtractor background and detection algoritms available directly
-from Python and Julia.  A Python wrapper is available in `sep-python`_,
-and a Julia wrapper is under development in `Photometry.jl`_.
-
-====
-
-`Nestle`_
-.........
-
-Nestle is a fully open-source (MIT-licensed) implementation of nested
-sampling algorithms in Python.
-
+SEP is a Python and C library for source detection and photometry,
+adapted from the SourceExtractor code base. I created it in order to
+make the SourceExtractor background and detection algorithms available
+directly from Python and (eventually) Julia. `SEP on GitHub`_.
 
 ====
 
@@ -79,6 +69,9 @@ wrapper of the dierckx Fortran library available from NETLIB, the same
 library underlying the spline classes in scipy.interpolate.
 
 ====
+
+* `Nestle`_  is a fully open-source (MIT-licensed) implementation of nested
+  sampling algorithms in Python. It's currently a work in progress.
 
 * `paper-tools`_ contains scripts for preparing papers for
   astronomical journals.
@@ -97,9 +90,8 @@ library underlying the spline classes in scipy.interpolate.
 .. _`paper-tools`: http://github.com/kbarbary/paper-tools
 .. _`PhotUtils`: http://photutils.readthedocs.org
 .. _`SpecUtils`: http://specutils.readthedocs.org
-.. _`SEP`: http://github.com/kbarbary/sep
-.. _`sep-python`: http://github.com/kbarbary/sep-python
+.. _`SEP`: http://sep.readthedocs.org
+.. _`SEP on GitHub`: http://github.com/kbarbary/sep
 .. _`Nestle`: http://github.com/kbarbary/nestle
-.. _`Photometry.jl`: http://github.com/kbarbary/Photometry.jl
 .. _`Dierckx.jl`: http://github.com/kbarbary/Dierckx.jl
 .. _`TimeIt.jl`: http://github.com/kbarbary/TimeIt.jl
