@@ -70,6 +70,9 @@ library underlying the spline classes in scipy.interpolate.
 
 ====
 
+Other
+.....
+
 * `Nestle`_  is a fully open-source (MIT-licensed) implementation of nested
   sampling algorithms in Python. It's currently a work in progress.
 

@@ -1,10 +1,9 @@
-# compiled config
-*.py[cod]
-
-# emacs files
-*~
-
 # generated
 cache
 output
-.doit.db
+.doit.db*
+__pycache__
+.ipynb_checkpoints
+
+# emacs files
+*~

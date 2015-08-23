@@ -1,8 +1,23 @@
 /* copied from bootstrap3 theme and modfied. */
 
+/* override navbar: make font bigger */
+.navbar-brand {
+  padding: 8px 15px;  /* was 12px 15px */
+  font-size: 22px;  /* was 19px */
+  line-height: 24px;  /* was 21px */
+  height: 24px;  /* was 21px */
+}
+.navbar-inverse .navbar-nav > li > a {
+  font-size: 16px; /* was 13px? */
+}
+.navbar-inverse {
+  background-color: #006687;  /* was #008cba */
+}
+
+
 body {
-    margin-top: 60px;
     background: #f9f9f9;
+    margin-bottom: 10px;
 }
 
 ul {
@@ -197,6 +212,7 @@ footer {
     width: 24px;
     height: 24px;
     vertical-align: sub;
+    margin-right: 8px;  /* space between icon and text */
 }
 
 hr.docutils {
