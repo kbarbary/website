@@ -13,13 +13,12 @@
    * |google+| `Google+ <http://plus.google.com/kylebarbary?rel=author>`_
    * |linkedin| `Linkedin <http://www.linkedin.com/pub/kyle-barbary/80/8b5/b91>`_
 
-I am currently a Cosmology Data Science Fellow at `Berkeley Center for
-Cosmological Physics`_. I study cosmology using Type Ia supernovae as
-part of the `Nearby Supernova Factory`_ (SNfactory) and the `Dark
-Energy Survey`_ (DES). SNfactory is an experiment designed to study
-nearby Type Ia supernovae in depth in order to enhance their use for
-cosmology. DES is a five-year imaging program on a telescope in Chile,
-designed to measure Dark Energy with unprecedented precision.
+I am a Project Scientist at the `Berkeley Center for Cosmological
+Physics`_ and a Data Science Fellow at the `Berkeley Institute for
+Data Science`_ at UC Berkeley. In part of my job, I study cosmology
+using Type Ia supernovae as part of the `Nearby Supernova Factory`_
+(SNfactory) SNfactory is an experiment designed to study nearby Type
+Ia supernovae in depth in order to enhance their use for cosmology.
 
 Previously, I was a postdoc at `Argonne National Lab`_, in the High
 Energy Physics division. I did my PhD at `UC Berkeley`_ with Saul
@@ -29,7 +28,7 @@ One of my main interests is in open-source scientific software and
 how to make it easier for scientists to discover, use and contribute to it.
 See `software </software>`_ for some open-source projects I'm involved with.
 
-Occasionally, I write up some of my explorations in open-source scientific
+Very occasionally, I write up some of my explorations in open-source scientific
 software in the `blog </blog>`_ section of this site.
 
 .. |twitter| image:: images/twitter.png

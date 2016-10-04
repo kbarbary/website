@@ -16,13 +16,10 @@ indicators allow us to measure how the universe has expanded over the
 past 10 billion years - looking back to the first third of the
 universe's existence!
 
-I'm currently involved in two separate supernova experiments: the
-Nearby Supernova Factory (SNfactory) and the `Dark Energy Survey`_
-(DES). SNfactory is an experiment on a telescope in Hawaii, and is
-designed to study nearby Type Ia supernovae in great detail in order
-to enhance their use in cosmology. DES is a five-year imaging program
-on a telescope in Chile, designed to discover distant supernovae and
-to measure Dark Energy with unprecedented precision.
+I currently work on the Nearby Supernova Factory. SNfactory is an
+experiment using a specially designed instrument on a telescope in
+Hawaii. It is designed to study nearby Type Ia supernovae in great
+detail in order to enhance their use in cosmology.
 
 
 High-redshift Type Ia Supernovae and their rates
