@@ -16,10 +16,31 @@ indicators allow us to measure how the universe has expanded over the
 past 10 billion years - looking back to the first third of the
 universe's existence!
 
-I currently work on the Nearby Supernova Factory. SNfactory is an
-experiment using a specially designed instrument on a telescope in
-Hawaii. It is designed to study nearby Type Ia supernovae in great
-detail in order to enhance their use in cosmology.
+Nearby Supernova Factory
+------------------------
+
+I currently work on the Nearby Supernova Factory
+(SNFactory). SNFactory is an experiment using a specially designed
+integral field spectrograph instrument on a telescope in Hawaii. It is
+designed to study nearby Type Ia supernovae in great detail in order
+to enhance their use in cosmology.
+
+In SNFactory, one of the main data analysis challenges has been
+separating the supernova spectrum in each observation from the light
+from the host galaxy.  This is complicated by two aspects: (1) the
+point spread function (PSF) differs between each exposure, and (2) the
+field of view is so small that there are no stars available for
+aligning different exposures.  I wrote the software `CubeFit`_, which
+addresses these aspects by performing a joint optimization of the
+underlying galaxy shape, spectrum, supernova spectrum and relative
+position of every exposure.
+
+I've also been working on infrastructure to simply and efficiently run
+our entire processing pipeline, which is composed of many programs
+(such as CubeFit) and intermediate data products.
+
+Finally, I maintain `SNCosmo`_, a Python package for fitting and
+simulating light curves of supernovae of all types (including Ia).
 
 
 High-redshift Type Ia Supernovae and their rates
@@ -70,3 +91,5 @@ al. 2011).
 .. _`PDF`: /thesis.pdf
 .. _`Dark Energy Survey`: http://www.darkenergysurvey.org
 .. _`HST Cluster Survey website`: http://supernova.lbl.gov/2009ClusterSurvey/
+.. _`CubeFit`: http://github.com/snfactory/cubefit
+.. _`SNCosmo`: http://github.com/sncosmo/sncosmo

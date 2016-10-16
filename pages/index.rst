@@ -15,21 +15,22 @@
 
 I am a Project Scientist at the `Berkeley Center for Cosmological
 Physics`_ and a Data Science Fellow at the `Berkeley Institute for
-Data Science`_ at UC Berkeley. In part of my job, I study cosmology
-using Type Ia supernovae as part of the `Nearby Supernova Factory`_
-(SNfactory) SNfactory is an experiment designed to study nearby Type
-Ia supernovae in depth in order to enhance their use for cosmology.
+Data Science`_ at UC Berkeley.
+
+In part of my job, I study cosmology using Type Ia supernovae as part
+of the `Nearby Supernova Factory`_, an experiment designed to study
+nearby Type Ia supernovae in depth in order to enhance their use for
+cosmology.  In the other part of my job, I write and maintain
+open-source scientific software (primarily for astronomy research) and
+investigate ways to make it easier for scientists to use programming
+tools to accomplish their research.
 
 Previously, I was a postdoc at `Argonne National Lab`_, in the High
 Energy Physics division. I did my PhD at `UC Berkeley`_ with Saul
 Perlmutter as part of the `Supernova Cosmology Project`_.
 
-One of my main interests is in open-source scientific software and
-how to make it easier for scientists to discover, use and contribute to it.
-See `software </software>`_ for some open-source projects I'm involved with.
-
-Very occasionally, I write up some of my explorations in open-source scientific
-software in the `blog </blog>`_ section of this site.
+Very occasionally, I write up some of my explorations in open-source
+scientific software in the `blog </blog>`_ section of this site.
 
 .. |twitter| image:: images/twitter.png
 .. |google+| image:: images/google+.png

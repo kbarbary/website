@@ -67,15 +67,6 @@ laws for Python. `Extinction on Github`_.
 
 ====
 
-`bsplines`_
-...........
-
-Work-in-progress optimized 1-d and 2-d cubic splines in C and Python.
-These can be a factor of 5 or more faster than the FORTRAN-based spline
-classes in scipy.interpolate.
-
-====
-
 .. image:: /images/astropy.png
    :height: 36px
    :align: left
@@ -155,12 +146,12 @@ Transforms between ICRS, galactic, and FK5 (e.g., J2000) coordinate systems.
 Nearby Supernova Factory
 ------------------------
 
-I've released open-source code for the cosmology experiment that I
-work on, the `Nearby Supernova Factory`_ and manage the group's GitHub
+I release open-source code for the cosmology experiment that I
+work on, the `Nearby Supernova Factory`_ under the group's GitHub
 organization at http://github.com/snfactory. In addition to the code
 I've written for the project, I'm working on open-sourcing legacy
 components of the group's data processing pipeline to enable
-reproducibility.
+reproducibility and code reuse.
 
 
 ====
@@ -172,7 +163,7 @@ Simultaneous fit of a supernova spectral time series and galaxy model
 on multiple spectral data cubes. Uses some FFT tricks for a fast
 analytical calculation of the gradient of the objective function,
 allowing us to efficiently optimize a model with over a million
-parameters (with regularization). The code is particular to snfactory
+parameters (with regularization). The code is particular to SNFactory
 data, but open-source for anyone to inspect and adapt for their needs.
 
 ====
