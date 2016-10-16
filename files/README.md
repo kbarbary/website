@@ -1,1 +1,1 @@
-data can be removed after sncosmo v0.4 is released.
+Static webpages built with Nikola. Source: http://github.com/kbarbary/website.
