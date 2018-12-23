@@ -1,0 +1,16 @@
+[Theme]
+engine = mako
+parent = bootstrap4
+author = The Nikola Contributors
+author_url = https://getnikola.com/
+based_on = Bootstrap 4 <http://getbootstrap.com/>
+license = MIT
+tags = bootstrap
+
+[Family]
+family = bootstrap4
+jinja_version = bootstrap4-jinja
+variants = bootstrap4-gradients, bootstrap4-gradients-jinja
+
+[Nikola]
+bootswatch = True

@@ -1,5 +1,5 @@
-Slate
------
+custom3
+-------
 
 * Based on bootstrap3.
 * Bootswatch Yeti theme.
