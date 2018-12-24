@@ -22,6 +22,9 @@ TRANSLATIONS = {
     # "es": "./es",
 }
 
+FAVICONS = (
+     ("icon", "/favicon.ico", "32x32"),
+)
 
 TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
